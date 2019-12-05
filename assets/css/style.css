@@ -50,11 +50,12 @@ h2{
 }
 
 
-.bio{
+.meat{
     position: relative;
     top: 100px;
     background-color: #ffffff;
     width: 960px;
+    min-height: 660px;
     margin: auto;
     color: #777777;
     padding: 3px 20px;
@@ -90,3 +91,41 @@ h4{
     left: 50%;
     bottom: -10px;
 }
+
+#bear,#bill,#cat,#dude,#space{
+    align-content: center;
+    border:#4aaaa5 solid 3px;
+    position: relative;
+}
+
+#bear{
+    left: 30px;
+}
+
+#bill{
+    left: 80px;
+}
+
+#cat{
+    left: 130px;
+}
+
+#dude{
+    top: 10px;
+    left: 175px;
+}
+
+#space{
+    top: 10px;
+    left: 250px;
+}
+
+a:link,a:visited{
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #4aaaa5;
+}
+
