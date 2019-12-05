@@ -6,18 +6,18 @@
 
 body{
     font-size: 20px;
-    background-color: #dddddd;
+    background-image: url(../images/backround.png);
 }
 
 header{
-    background-color: #ffffff;
+    background-color: #666666;
     position: fixed;
     width: 100%;
     height: 95px;
     top: 0%;
     right: 0%;
     z-index: 30;
-    border-bottom: solid 3px #cccccc;
+    border-bottom: solid 3px #4aaaa5;
 }
 
 h1{
@@ -42,7 +42,7 @@ h3{
     font-size: 15px;
     float: left;
     margin: 8px;
-    color: #777777;
+    color: #ffffff;
 }
 
 h2{
@@ -121,7 +121,7 @@ h4{
 }
 
 a:link,a:visited{
-    color: #777777;
+    color: #ffffff;
     text-decoration: none;
 }
 
