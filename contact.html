@@ -6,6 +6,7 @@
     <title>Matthew's Portfolio</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel='icon' href='assets/images/favicon_2.png' type='image/x-icon'>
 </head>
 
 <body>
@@ -39,6 +40,44 @@
             <h2>Contact Me</h2>
 
             <hr size="3px" color="#dddddd" />
+
+            <form action="#" method="post" enctype="text/plain" id="myForm">
+
+                <strong>Name:</strong><br>
+                <input type="text" name="name" size="50"><br><br>
+
+                <strong>Comment:</strong><br>
+                <textarea name="Comment" rows="20" cols="120"></textarea>><br>
+
+                <input type="submit" value="Send">
+
+                <button onclick="myFunction()">Reset</button>
+
+                <script>
+                    function myFunction() {
+                        var r = confirm("Are you sure you want to Reset?");
+                        if (r == false) {
+                            document.getElementById("myForm");
+;
+                        } 
+                        else if (r == true) {
+                            document.getElementById("myForm");
+                        }
+                        else{
+
+                        }
+                    }
+                </script>
+
+                <!-- <input type="reset" value="Reset" onclick="confirm('Are you sure ou want to Reset?')"> -->
+
+            </form>
+
+            <div class="social">
+                <a id="linked_in" href="https://www.google.com/" target="_blank"><strong>Linked In</strong></a>
+                <a id="git_hub" href="https://www.google.com/" target="_blank"><strong>Git Hub</strong></a>
+                <a id="third" href="https://www.google.com/" target="_blank"><strong>Third Link</strong></a>
+            </div>
 
         </div>
 
