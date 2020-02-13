@@ -1,3 +1,3 @@
-# JeffordsM.github.io
+# Matthew Jeffords' Resume
 
-https://jeffordsm.github.io/
+https://choop-a-loop.github.io/resume/
