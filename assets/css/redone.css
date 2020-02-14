@@ -1,0 +1,21 @@
+.card {
+    width: fit-content;
+    margin: auto;
+}
+
+.card{
+    border:#4aaaa5 solid 3px;
+}
+
+.card:hover{
+    border: orange solid 3px;
+}
+
+.card:hover h5{
+    background-color: orange;
+}
+
+.col{
+    padding-bottom: 5px;
+}
+

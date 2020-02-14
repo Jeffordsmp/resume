@@ -24,11 +24,12 @@ header{
 h1{
     position: absolute;
     left: 120px;
-    padding: 20px;
+    padding: 40px 5px 15px;
     background: #4aaaa5;
     font-size: 30px;
     font-weight: bolder;
-    width: 275px;
+    width: 285px;
+    height: 93px;
     color: #ffffff;
 }
 
@@ -49,6 +50,8 @@ h3{
 h2{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 0 0;
+    margin-bottom: 0;
 }
 
 
@@ -95,14 +98,6 @@ h4{
     bottom: -10px;
 }
 
-#bear,#bill,#cat,#dude,#space{
-    width: 250px;
-    height: 250px;
-    border:#4aaaa5 solid 3px;
-    position: relative; 
-    float: left;
-}
-
 h5{
     text-align: center;
     position: absolute;
@@ -113,53 +108,6 @@ h5{
     z-index: 20;
     margin: 0px;
     width: 250px;
-}
-
-#bear:hover{
-    border:orange solid 3px;
-}
-
-#bill:hover{
-    border: orange solid 3px;
-}
-
-#cat:hover{
-    border: orange solid 3px;
-}
-
-#dude:hover{
-    border: orange solid 3px;
-}
-
-#space:hover{
-    border: orange solid 3px;
-}
-
-#bear{
-    top: 30px;
-    left: 30px;
-}
-
-#bill{
-    top: 30px;
-    left: 80px;
-}
-
-#cat{
-    top: 30px;
-    left: 130px;
-}
-
-#dude{
-    top: 70px;
-    left: 175px;
-    margin-bottom: 95px;
-}
-
-#space{
-    top: 70px;
-    left: 250px;
-    margin-bottom: 95px;
 }
 
 
@@ -186,4 +134,8 @@ a:hover,a:active{
     background-color:#666666;
     border-radius: 25px;
     margin: 0px 15px;
+}
+
+hr{ 
+    margin-top: 0;
 }

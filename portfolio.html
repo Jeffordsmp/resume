@@ -5,84 +5,108 @@
     <!-- Info for the Brouser -->
     <title>Matthew's Portfolio</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/betterstyles.css.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/redone.css">
     <link rel='icon' href='assets/images/favicon_2.png' type='image/x-icon'>
 </head>
 
 <body>
 
-    <div class="clearfix">
-        <header>
+    <header>
 
-            <h1>
-                Matthew Jeffords
-            </h1>
+        <h1>
+            Matthew Jeffords
+        </h1>
 
-            <div class="tabs">
-                <h3>
-                    <a href="index.html">About Me</a>
-                </h3>
+        <div class="tabs">
+            <h3>
+                <a href="index.html">About Me</a>
+            </h3>
 
-                <h3>
-                    <a href="#">Portfolio</a>
-                </h3>
+            <h3>
+                <a href="#">Portfolio</a>
+            </h3>
 
-                <h3>
-                    <a href="contact.html">Contact Me</a>
-                </h3>
-            </div>
-
-        </header>
-
-
-        <div class="meat">
-
-            <div class="clearfix">
-
-                <h2>Portfolio</h2>
-
-                <hr size="3px" color="#dddddd" />
-
-                <section id="bear">
-                    <a href="https://choop-a-loop.github.io/HW3/" target="_blank">
-                        <img src="assets/images/Password_Generator.png" alt="Password_Generator" height="250" width="250"/>
-                            <div id="box1"><h5>Password Generator</h5></div>
-                    </a>
-                </section>
-
-                <section id="bill">
-                    <a href="https://choop-a-loop.github.io/HW_05/" target="_blank">
-                        <img src="assets/images/workday.png" alt="Codeing_Quiz" height="250" width="250"/>
-                            <div><h5>Workday Calender</h5></div>
-                    </a>
-                </section>
-
-                <section id="cat">
-                    <a href="https://choop-a-loop.github.io/Project1/" target="_blank">
-                        <img src="assets/images/Fridge.png" alt="Placeholder_Cat" height="250" width="250"/>
-                            <div><h5>What's in Your Fridge?</h5></div>
-                    </a>
-                </section>
-
-                <section id="dude">
-                    <a href="https://calm-wildwood-28573.herokuapp.com/" target="_blank">
-                        <img src="assets/images/downStream.png" alt="Placeholder_Dude" height="250" width="250"/>
-                            <div><h5>downStream</h5></div>
-                    </a>
-                </section>
-
-                <section id="space">
-                    <a href="https://www.google.com/" target="_blank">
-                        <img src="assets/images/Placeholder_Space.jpg" alt="Placeholder_Space" height="250" width="250"/>
-                            <div><h5>Box 5</h5></div>
-                    </a>
-                </section>
-
-            </div>
-
+            <h3>
+                <a href="contact.html">Contact Me</a>
+            </h3>
         </div>
 
+    </header>
+
+
+    <div class="meat">
+
+        <div class="clearfix">
+
+            <h2>Portfolio</h2>
+
+            <hr size="3px" color="#dddddd" />
+
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <a href="https://choop-a-loop.github.io/HW3/">
+                            <div class="card">
+                                <img src="assets/images/Password_Generator.png" alt="Password Generator" height="250"
+                                    width="250" />
+
+                                <h5>Password Generator</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://choop-a-loop.github.io/HW_05/">
+                            <div class="card">
+                                <img src="assets/images/workday.png" alt="Codeing Quiz" height="250" width="250" />
+                                <h5>Workday Calender</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://choop-a-loop.github.io/Project1/">
+                            <div class="card">
+                                <img src="assets/images/Fridge.png" alt="Whats in Your Fridge" height="250"
+                                    width="250" />
+                                <h5>What's in Your Fridge?</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://calm-wildwood-28573.herokuapp.com/">
+                            <div class="card">
+                                <img src="assets/images/downStream.png" alt="Down Stream" height="250" width="250" />
+                                <h5>downStream</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://www.google.com/">
+                            <div class="card">
+                                <img src="assets/images/Otis_2.jpeg" alt="Placeholder" height="250" width="250" />
+                                <h5>Placeholder</h5>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
